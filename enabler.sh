@@ -71,7 +71,7 @@ spec:
         app: roks-icsp
     spec:
       containers:
-      - image: quay.io/cicdtest/roks-enabler:rosa
+      - image: quay.io/thuyn_581/rosa-enabler
         imagePullPolicy: Always
         name: roks-icsp
         priorityClassName: openshift-user-critical
